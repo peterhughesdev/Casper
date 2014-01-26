@@ -379,7 +379,8 @@ margin on the iframe, cause it breaks stuff. */
 
 .site-nav {
     background: rgba(255, 255, 255, 0.7);
-    padding: 18px 22px;
+    text-align: center;
+    padding: 10px 22px 15px;
     position: fixed;
     top: 15px;
     left: 15px;
@@ -388,9 +389,13 @@ margin on the iframe, cause it breaks stuff. */
 
 .site-nav a {
     display: block;
-    margin: 3px 0;
+    margin: 8px 0;
     text-decoration: none;
     text-align: center;
+}
+
+.site-nav .social {
+    font-size: 1.4rem;
 }
 
 .blog-logo {
