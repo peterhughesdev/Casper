@@ -1,6 +1,7 @@
-# Casper
+# Walden
+Modified version of the default [Ghost](http://github.com/tryghost/ghost/) theme, Casper, for my personal site.
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+Adds a few additional site elements whilst retaining the minimal aesthetic.
 
 ## Copyright & License
 
