@@ -377,6 +377,22 @@ margin on the iframe, cause it breaks stuff. */
     background-size: cover;
 }
 
+.site-nav {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 18px 22px;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 999;
+}
+
+.site-nav a {
+    display: block;
+    margin: 3px 0;
+    text-decoration: none;
+    text-align: center;
+}
+
 .blog-logo {
     text-decoration: none;
 }
@@ -800,6 +816,14 @@ margin on the iframe, cause it breaks stuff. */
         height: auto;
         min-height: 240px;
         padding: 15% 0;
+    }
+
+    .site-nav {
+        background: rgba(255, 255, 255, 0.7);
+        position: relative;
+        top: 0px;
+        left: 0px;
+        z-index: 999;
     }
 
     .blog-title {
