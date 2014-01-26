@@ -395,7 +395,13 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .site-nav .social {
+    margin: 2px 0;
     font-size: 1.4rem;
+}
+
+.site-nav hr {
+    margin: 8px 2px;
+    border-top: 1px solid #333;
 }
 
 .blog-logo {
@@ -829,6 +835,10 @@ margin on the iframe, cause it breaks stuff. */
         top: 0px;
         left: 0px;
         z-index: 999;
+    }
+
+    .site-nav hr {
+        display: none;
     }
 
     .blog-title {
