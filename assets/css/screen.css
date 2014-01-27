@@ -114,7 +114,7 @@ h4, h5, h6 {
     text-rendering: optimizeLegibility;
     line-height: 1;
     margin-top: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
 }
 
 h1 {
@@ -153,7 +153,7 @@ a {
 }
 
 a:hover {
-    color: #57A3E8;
+    color: #13A35E;
 }
 
 h1 a, h2 a, h3 a,
@@ -369,7 +369,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     display: table;
     width: 100%;
-    height: 46%;
+    height: 228px;
     margin-bottom: 5rem;
     text-align: center;
     color: #fff;
@@ -379,7 +379,6 @@ margin on the iframe, cause it breaks stuff. */
 
 .site-nav {
     background: rgba(255, 255, 255, 0.8);
-    border: 2px solid rgba(0,0,0,0.1);
     text-align: center;
     padding: 10px 22px 15px;
     position: fixed;
@@ -708,7 +707,7 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 1.7em;
     color: #BBC7CC;
     text-align: center;
-    background: #F7FAFB;
+    background: #263127;
 }
 
 .site-footer a {
@@ -717,7 +716,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .site-footer a:hover {
-    color: #50585D;
+    color: #8CC27E;
 }
 
 .poweredby .icon-ghost {
@@ -839,7 +838,15 @@ margin on the iframe, cause it breaks stuff. */
     }
 
     .site-nav hr {
-        display: none;
+        border: none;
+        display: block;
+        width: 0px;
+        height: 0px;
+        margin: 0px 5px;
+    }
+
+    .site-nav a {
+        display: inline;
     }
 
     .blog-title {
