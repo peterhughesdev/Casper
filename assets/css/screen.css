@@ -157,7 +157,7 @@ a:hover {
 
 h1 a, h2 a, h3 a,
 h4 a, h5 a, h6 a {
-    color: #50585D;
+    color: #5A3F2A;
 }
 
 
@@ -504,7 +504,13 @@ margin on the iframe, cause it breaks stuff. */
 
 .post-read-more {
     font-weight: bold;
-    color: #333;
+    color: ##6E706A;
+    text-align: right;
+    display: block;
+}
+
+.post-ellipses {
+    color: #C9CAC5;
 }
 
 .user-meta {
@@ -721,18 +727,18 @@ margin on the iframe, cause it breaks stuff. */
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
     line-height: 1.7em;
-    color: #BBC7CC;
+    color: #86887B;
     text-align: center;
-    background: #F7FAFB;
+    background: #423831;
 }
 
 .site-footer a {
-    color: #BBC7CC;
+    color: #CACCBB;
     text-decoration: underline;
 }
 
 .site-footer a:hover {
-    color: #50585D;
+    color: #E2E2DC;
 }
 
 .poweredby .icon-ghost {
