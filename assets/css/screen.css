@@ -589,6 +589,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .post-template .post-header h1 {
     font-size: 7rem; 
+    margin-bottom: 0.6em;
 }
 
 .post-template .blog-title {
@@ -874,10 +875,10 @@ margin on the iframe, cause it breaks stuff. */
 
     .site-nav a {
         display: inline-block;
-        width: 50%;
+        width: 40%;
         text-align: center;
         padding: 0;
-        margin: 7px 0;
+        margin: 9px 0;
     }
 
     .blog-title {
@@ -983,9 +984,8 @@ margin on the iframe, cause it breaks stuff. */
         padding: 30px 0;
     }
 
-    .post-template .post-header h2 {
+    .post-template .post-header h1 {
         font-size: 6rem;
-        margin-bottom: 0.6em;
     }
 
     .post-meta {
