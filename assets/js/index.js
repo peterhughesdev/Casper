@@ -7,6 +7,7 @@
     "use strict";
     $(document).ready(function(){
         $(".post-content").fitVids();
+        hljs.configure({tabReplace: "    "});
         hljs.initHighlightingOnLoad();
     });
 }(jQuery));
