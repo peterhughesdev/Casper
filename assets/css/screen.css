@@ -253,6 +253,11 @@ pre {
     border-radius: 3px;
 }
 */
+.hljs {
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+
 pre code, tt {
     font-size: inherit;
     white-space: -moz-pre-wrap;
@@ -727,9 +732,9 @@ margin on the iframe, cause it breaks stuff. */
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
     line-height: 1.7em;
-    color: #86887B;
+    color: #989993;
     text-align: center;
-    background: #423831;
+    background: #5C5652;
 }
 
 .site-footer a {
@@ -868,7 +873,9 @@ margin on the iframe, cause it breaks stuff. */
     }
 
     .site-nav a {
-        display: inline;
+        display: inline-block;
+        width: 50%;
+        text-align: center;
     }
 
     .blog-title {
@@ -895,7 +902,7 @@ margin on the iframe, cause it breaks stuff. */
     }
 
     h1 {
-        font-size: 4.8rem;
+        font-size: 4rem;
         text-indent: -2px;
     }
 
