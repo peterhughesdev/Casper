@@ -7,6 +7,6 @@
     "use strict";
     $(document).ready(function(){
         $(".post-content").fitVids();
-        prettyPrint();
+        hljs.initHighlightingOnLoad();
     });
 }(jQuery));

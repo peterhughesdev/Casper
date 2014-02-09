@@ -17,7 +17,7 @@
 
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset "css/obsidian.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "highlight/default.css"}}" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
 
     {{! Ghost outputs important style and meta data with this tag }}
@@ -48,8 +48,8 @@
     {{ghost_foot}}
 
     {{! The main JavaScript file for Casper }}
+    <script type="text/javascript" src="{{asset "highlight/highlight.pack.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/prettify/prettify.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 
 </body>

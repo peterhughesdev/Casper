@@ -12,8 +12,7 @@
     5.  Single Post
     6.  Third Party Elements
     7.  Pagination
-    8.  Footer
-    9.  Media Queries (Tablet)
+z    9.  Media Queries (Tablet)
     10. Media Queries (Mobile)
 
  */
@@ -157,7 +156,7 @@ a:hover {
 
 h1 a, h2 a, h3 a,
 h4 a, h5 a, h6 a {
-    color: #5A3F2A;
+    color: #66584D;
 }
 
 
@@ -436,6 +435,10 @@ margin on the iframe, cause it breaks stuff. */
     text-shadow: 0 1px 3px rgba(0,0,0,0.15);
 }
 
+.content {
+    border-top: 3px solid #5F976C;
+}
+
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
@@ -561,7 +564,7 @@ margin on the iframe, cause it breaks stuff. */
    ========================================================================== */
 
 .post-template .content {
-    border-top: 3px solid #5F976C;
+    
 }
 
 /* Tweak the .post wrapper style */
